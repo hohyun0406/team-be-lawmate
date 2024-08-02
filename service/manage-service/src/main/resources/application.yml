@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: manage-service
+  profiles:
+    active: local
+  config:
+    import: optional:configserver:http://223.130.128.82:8888
