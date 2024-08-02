@@ -52,6 +52,11 @@ dependencies {
 	}
 	// config
 	implementation 'org.springframework.cloud:spring-cloud-starter-config'
+
+	// mybatis
+	implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.2.0'
+
+
 }
 dependencyManagement {
 	imports {
